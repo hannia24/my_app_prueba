@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-interface Componente{
+interface Componente {
   icon: string;
   name: string;
   redirectTo: string;
@@ -14,16 +14,21 @@ interface Componente{
 export class InicioPage implements OnInit {
   componentes: Componente[] = [
     {
-      icon:"accessibility-outline",
-      name:'Alerta',
+      icon: "alert-circle-outline",
+      name: 'Alerta',
       redirectTo: '/alerta'
     },
-      {
-        icon:'cog-outline',
-        name: 'Accion',
-        redirectTo: '/accion'
-      }
-  
+    {
+      icon: 'cog-outline',
+      name: 'Accion',
+      redirectTo: '/accion'
+    },
+    {
+      icon: "happy-outline",
+      name: 'Avatar',
+      redirectTo: '/avatar'
+    }
+
   ];
 
   constructor() { }

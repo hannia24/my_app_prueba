@@ -20,6 +20,10 @@ const routes: Routes = [
     path: 'alerta',
     loadChildren: () => import('./paginas/alerta/alerta.module').then( m => m.AlertaPageModule)
   },
+  {
+    path: 'avatar',
+    loadChildren: () => import('./paginas/avatar/avatar.module').then( m => m.AvatarPageModule)
+  },
 ];
 
 @NgModule({
