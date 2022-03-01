@@ -27,6 +27,16 @@ export class InicioPage implements OnInit {
       icon: "happy-outline",
       name: 'Avatar',
       redirectTo: '/avatar'
+    },
+    {
+      icon: "color-palette-outline",
+      name: 'botones',
+      redirectTo: '/botones'
+    },
+    {
+      icon: "color-palette-outline",
+      name: 'card',
+      redirectTo: '/card'
     }
 
   ];
